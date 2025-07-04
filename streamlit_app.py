@@ -4,6 +4,7 @@ import math
 from pathlib import Path
 
 def faktorial(n):
+    global hasil
     hasil=1
     for i in range(1,n+1):
         hasil*=i
@@ -19,6 +20,8 @@ if add_selectbox=="Beranda":
     Aplikasi ini dibuat untuk memenuhi tugas Praktik Logika dan Pemrograman Komputer.
     Tugas disusun oleh 5 orang''')
 elif add_selectbox=="Kalkulator Faktorial":
-    st.title("Kalkulator Faktorial")
-    
+    st.title("Kalkulator n Faktorial")
+    number = st.number_input("Masukkan n")
+    faktorial(number)
+    st.write(f"Hasil {n}!={hasil} ")
 
