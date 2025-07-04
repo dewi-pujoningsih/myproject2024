@@ -10,8 +10,17 @@ add_selectbox = st.sidebar.selectbox(
     ("Beranda", "Kalkulator Faktorial", "Cek Ganjil Genap", "Tentang kami")
 )
 if add_selectbox=="Beranda":
-    st.write(
-        '''Aplikasi ini dibuat untuk memenuhi tugas kelompok Praktik LPK 2025. Semoga dapat bermanfaat untuk 
-        orang banyak'''
-    )
+    st.markdown("*Aplikasi* **Gado** ***Gado***.")
+    st.markdown('''
+    :red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]
+    :gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')
+st.markdown("Here's a bouquet &mdash;\
+            :tulip::cherry_blossom::rose::hibiscus::sunflower::blossom:")
+
+multi = '''If you end a line with two spaces,
+a soft return is used for the next line.
+
+Two (or more) newline characters in a row will result in a hard return.
+'''
+st.markdown(multi)
 
