@@ -11,7 +11,7 @@ add_selectbox = st.sidebar.selectbox(
 )
 if add_selectbox="Beranda":
     st.write(
-        "Aplikasi ini dibuat untuk memenuhi tugas kelompok Praktik LPK 2025. Semoga dapat bermanfaat untuk 
-        orang banyak"
+        '''Aplikasi ini dibuat untuk memenuhi tugas kelompok Praktik LPK 2025. Semoga dapat bermanfaat untuk 
+        orang banyak'''
     )
 
