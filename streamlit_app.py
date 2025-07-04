@@ -19,7 +19,6 @@ if add_selectbox=="Beranda":
     Aplikasi ini dibuat untuk memenuhi tugas Praktik Logika dan Pemrograman Komputer.
     Tugas disusun oleh 5 orang''')
 elif add_selectbox=="Kalkulator Faktorial":
-    angka=st.input("Masukkan n:")
-    faktorial(angka)
+    st.tittle("Kalkulator Faktorial")
     
 
