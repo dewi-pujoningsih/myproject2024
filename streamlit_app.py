@@ -14,7 +14,7 @@ def faktorial(n):
     hasil=1
     for i in range(1,n+1):
         hasil*=i
-    print("Hasil:",hasil)
+    return hasil
 if add_selectbox=="Beranda":
     st.header("**Aplikasi Aneka Fungsi**")
     st.markdown('''
@@ -23,6 +23,6 @@ if add_selectbox=="Beranda":
 elif add_selectbox=="Kalkulator Faktorial":
     st.title("Kalkulator n Faktorial")
     number = int(st.number_input("Masukkan n"))
-    faktorial(number)
+    st.write("Hasil: ", faktorial(number))
     
 
