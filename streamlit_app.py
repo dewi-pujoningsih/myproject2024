@@ -9,5 +9,9 @@ add_selectbox = st.sidebar.selectbox(
     "Pilih menu berikut:",
     ("Beranda", "Kalkulator Faktorial", "Cek Ganjil Genap", "Tentang kami")
 )
-
+if add_selectbox="Beranda":
+    st.write(
+        "Aplikasi ini dibuat untuk memenuhi tugas kelompok Praktik LPK 2025. Semoga dapat bermanfaat untuk 
+        orang banyak"
+    )
 
