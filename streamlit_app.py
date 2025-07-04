@@ -22,7 +22,7 @@ if add_selectbox=="Beranda":
     Tugas disusun oleh 5 orang''')
 elif add_selectbox=="Kalkulator Faktorial":
     st.title("Kalkulator n Faktorial")
-    number = st.number_input("Masukkan n")
+    number = int(st.number_input("Masukkan n"))
     faktorial(number)
     
 
