@@ -23,5 +23,5 @@ elif add_selectbox=="Kalkulator Faktorial":
     st.title("Kalkulator n Faktorial")
     number = st.number_input("Masukkan n")
     faktorial(number)
-    st.write(f"Hasil {n}!={hasil} ")
+    
 
